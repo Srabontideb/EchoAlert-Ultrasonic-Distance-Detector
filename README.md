@@ -1,2 +1,2 @@
 # EchoAlert-Ultrasonic-Distance-Detector
-This Arduino project features a sonar system with an ultrasonic sensor for distance measurement, displaying readings on an LCD and alerting with a buzzer for close objects. 
+This Arduino project utilizes a sonar system to measure distance using an ultrasonic sensor. The setup involves an LCD display for showing distance readings, a buzzer for auditory alerts when objects are too close, and the essential components for emitting and receiving ultrasonic waves to calculate distance. The code orchestrates the process of sending ultrasonic pulses, measuring their return time, and calculating the distance based on the speed of sound. If an object is detected within a predefined range, the buzzer is activated as an alert.
